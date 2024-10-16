@@ -37,4 +37,4 @@ Testing if blinding with new method (for KSS16 curves) is consistent.
 * step 6 is to obtain clock cycles of the new method about membership testing for $\mathbb{G}_2$ on KSS16-P329 (or KSS16-P330, KSS16-P766):
 BENCH: g2_is_valid_kss16
  
-* Comparisons: After executing "./bench_pc" , BENCH: g2_is_valid and BENCH: g2_is_valid_kss16 are shown with their clock cycles respectively, which can be compared to conclude that our new method is about 24.0%, 32.1% and 29.2% faster than the previous method(https://doi.org/10.1007/s10623-023-01223-7) on KSS16-P329, KSS16-P330 and KSS16-P766, respectively. 
+* Comparisons: After executing "./bench_pc" , BENCH: g2_is_valid and BENCH: g2_is_valid_kss16 are shown with their clock cycles respectively, which can be compared to conclude that our new method is about 24.0%, 33.3% and 29.2% faster than the previous method(https://doi.org/10.1007/s10623-023-01223-7) on KSS16-P329, KSS16-P330 and KSS16-P766, respectively. 
